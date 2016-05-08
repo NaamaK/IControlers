@@ -1,0 +1,29 @@
+﻿Build started 09/05/2016 01:44:57.
+     1>Project "C:\Users\Naama\VisualStudioProjects\project\RadioList\RadioList\RadioList.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt IControler.cpp main.cpp MyLine.cpp RadioList.cpp Size.cpp
+         Size.cpp
+         RadioList.cpp
+     1>c:\users\naama\visualstudioprojects\project\radiolist\radiolist\radiolist.cpp(11): warning C4244: 'argument' : conversion from 'DWORD' to 'WORD', possible loss of data
+         MyLine.cpp
+         main.cpp
+     1>c:\users\naama\visualstudioprojects\project\radiolist\radiolist\main.cpp(67): warning C4244: 'argument' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>c:\users\naama\visualstudioprojects\project\radiolist\radiolist\main.cpp(130): warning C4244: 'argument' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>c:\users\naama\visualstudioprojects\project\radiolist\radiolist\main.cpp(145): warning C4244: 'argument' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>c:\users\naama\visualstudioprojects\project\radiolist\radiolist\main.cpp(160): warning C4244: 'argument' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>c:\users\naama\visualstudioprojects\project\radiolist\radiolist\main.cpp(175): warning C4244: 'argument' : conversion from 'DWORD' to 'WORD', possible loss of data
+     1>c:\users\naama\visualstudioprojects\project\radiolist\radiolist\main.cpp(196): warning C4244: 'argument' : conversion from 'DWORD' to 'WORD', possible loss of data
+         IControler.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Naama\VisualStudioProjects\project\RadioList\Debug\RadioList.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Naama\VisualStudioProjects\project\RadioList\Debug\RadioList.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Naama\VisualStudioProjects\project\RadioList\Debug\RadioList.lib" /MACHINE:X86 Debug\IControler.obj
+         Debug\main.obj
+         Debug\MyLine.obj
+         Debug\RadioList.obj
+         Debug\Size.obj
+         RadioList.vcxproj -> C:\Users\Naama\VisualStudioProjects\project\RadioList\Debug\RadioList.exe
+     1>Done Building Project "C:\Users\Naama\VisualStudioProjects\project\RadioList\RadioList\RadioList.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.85
